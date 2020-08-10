@@ -1,0 +1,194 @@
+{
+  "basics": {
+    "name": "Jenade Moodley",
+    "label": "Cloud Engineer",
+    "picture": "https://s.gravatar.com/avatar/0a001868b6ed46c1ba24eb29862f9b70?s=256",
+    "email": "jenademoodley68+resume@gmail.com",
+    "phone": "(+27) 61 359 6314",
+    "website": "https://devcloud.co.za",
+    "summary": "Seasoned Cloud Engineer with experience in Cloud, System, and Software Engineering. Bachelor of Science Honours in Computer Science from university of Kwa-Zulu Natal. Skilled in Cloud Architecture, Linux System Engineering, Technical Support, Technical Training, and Containers. Based in South Africa, Cape Town",
+    "location": {
+      "postalCode": "8001",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "region": "Western Cape"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jenademoodley",
+        "url": "https://www.linkedin.com/in/jenademoodley/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jenademoodley",
+        "url": "https://github.com/jenademoodley"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Amazon Web Services",
+      "position": "Cloud Support Engineer",
+      "website": "https://aws.amazon.com",
+      "startDate": "2017-12-29",
+      "summary": "Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 175 fully featured services from data centers globally.",
+      "highlights": [
+        "Promoted from Graduate to Associate, and then to Engineer, within the space of 1.5 years",
+        "Became a Quality Champion; Evaluate the quality and appropriateness of Support correspondences of engineers",
+        "Pioneer for the AWS Premium Support Andon Program (PSAP) in Cape Town",
+        "Member of ECS (Elastic Container Service) Support Operations",
+        "Trained engineers globally on Docker, containerization, and ECS/Fargate"
+      ]
+    },
+    {
+      "company": "University of Kwa-Zulu Natal",
+      "position": "Student Tutor",
+      "website": "https://ukzn.ac.za/",
+      "startDate": "2017-01-15",
+      "endDate": "2017-11-30",
+      "summary": "UKZN is one of three universities in South Africa and indeed in Africa rated amongst the top 500 universities of the world according to the Academic Rankings of World Universities (ARWU)",
+      "highlights": [
+        "Assisted in teaching of tutorials and practicals",
+        "Graded assignments and practical assessments"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Kwa-Zulu Natal",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2014-01-01",
+      "endDate": "2016-12-31",
+      "courses": [
+        "Computer Science",
+        "Mathematics",
+        "Statistics"
+      ]
+    },
+    {
+      "institution": "University of Kwa-Zulu Natal",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science Honours",
+      "startDate": "2017-01-01",
+      "endDate": "2017-12-31",
+      "gpa": "Summa Cum Laude",
+      "courses": [
+        "Computer Science (Advanced)"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Linux+",
+      "date": "2018-04-20",
+      "awarder": "CompTIA",
+      "summary": "CompTIA Linux+ validates the competencies required of an early career system administrator supporting Linux systems."
+    },
+    {
+      "title": "AWS Certified Solutions Architect - Associate",
+      "date": "2020-06-26",
+      "awarder": "Amazon Web Services",
+      "summary": "The AWS Certified Solutions Architect - Associate examination is intended for individuals who perform a solutions architect role and have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS."
+    },
+    {
+      "title": "AWS Certified SysOps Administrator - Associate",
+      "date": "2020-07-10",
+      "awarder": "Amazon Web Services",
+      "summary": "The AWS Certified SysOps Administrator – Associate examination is intended for systems administrators in a systems operations role with at least one year of experience in deployment, management, and operations on AWS."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Weather Characterization from Outdoor Scene Images",
+      "publisher": "International Conference on Computer Vision and Graphics",
+      "releaseDate": "2018-09-19",
+      "website": "https://www.springerprofessional.de/en/weather-characterization-from-outdoor-scene-images/16122178",
+      "summary": "Research paper presenting a variety of techniques to characterize outdoor scene images into their respective weather components; the sky condition (sunny or cloudy), the presence of rain, and the visibility. "
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linux",
+      "level": "Professional",
+      "keywords": [
+        "RedHat",
+        "CentOS",
+        "Ubuntu",
+        "Kernel",
+        "Debugging",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "name": "Cloud Architecture",
+      "level": "Professional",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "VPC",
+        "CloudEndure",
+        "EC2",
+        "ECS",
+        "RDS",
+        "EFS",
+        "ElastiCache"
+      ]
+    },
+    {
+      "name": "Systems Engineering",
+      "level": "Master",
+      "keywords": [
+        "Networking",
+        "Load Balancing",
+        "Web Applications",
+        "Nginx",
+        "Apache",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Intermediate",
+      "keywords": [
+        "Java",
+        "Python",
+        "C++",
+        "PHP",
+        "JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Afrikaans",
+      "fluency": "Limited working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Gaming",
+      "keywords": [
+        "Open World RPG"
+      ]
+    },
+    {
+      "name": "Hiking",
+      "keywords": [
+        "Beautiful Scenery"
+      ]
+    },
+    {
+      "name": "Software Tinkering",
+      "keywords": [
+        "Websites, Frameworks, Stacks, etc"
+      ]
+    }
+  ]
+}
