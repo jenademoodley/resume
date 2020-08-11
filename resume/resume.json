@@ -4,7 +4,6 @@
     "label": "Cloud Engineer",
     "picture": "https://s.gravatar.com/avatar/0a001868b6ed46c1ba24eb29862f9b70?s=256",
     "email": "jenademoodley68+resume@gmail.com",
-    "phone": "(+27) 61 359 6314",
     "website": "https://devcloud.co.za",
     "summary": "Seasoned Cloud Engineer with experience in Cloud, System, and Software Engineering. Bachelor of Science Honours in Computer Science from university of Kwa-Zulu Natal. Skilled in Cloud Architecture, Linux System Engineering, Technical Support, Technical Training, and Containers. Based in South Africa, Cape Town",
     "location": {
@@ -182,12 +181,6 @@
       "name": "Hiking",
       "keywords": [
         "Beautiful Scenery"
-      ]
-    },
-    {
-      "name": "Software Tinkering",
-      "keywords": [
-        "Websites, Frameworks, Stacks, etc"
       ]
     }
   ]
