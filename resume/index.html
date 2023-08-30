@@ -1,705 +1,431 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        
     <title>Jenade Moodley</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
-    <style>
-      .clear-margin {
-  margin: 0;
-}
-.space-top {
-  margin-top: 10px;
-}
-.space-right {
-  margin-right: 10px;
-}
-.icon-left {
-  margin-right: 5px;
-}
-.icon-right {
-  margin-left: 5px;
-}
-.labels {
-  word-spacing: 5px;
-  line-height: 2;
-}
-.label-keyword {
-  display: inline-block;
-  background: #7eb0db;
-  color: white;
-  font-size: 0.9em;
-  padding: 5px;
-  border: 1px solid #357ebd;
-}
-.link-disguise {
-  color: inherit;
-}
-.link-disguise:hover {
-  color: inherit;
-}
-@media (max-width: 992px) {
-  .clear-margin-sm {
-    margin-bottom: 0;
-  }
-}
-body {
-  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #f0f0f0;
-  color: #333333;
-  font-size: 16px;
-}
-.text-bolder {
-  font-weight: bold;
-}
-@media only screen {
-  .container {
-    max-width: 50em;
-  }
-}
-@media (max-width: 480px) {
-  ul {
-    padding-left: 25px;
-  }
-  /*
-        .mobile-title {
-            display: inline-block;
-            margin-left: 5px;
-            font-weight: bold;
-            text-transform: uppercase;
-            vertical-align: middle;
-        }
-*/
-  .background-details {
-    display: block;
-  }
-  .background-details .icon {
-    max-width: inherit;
-    min-width: inherit;
-    text-align: left;
-  }
-  .background-details .icon,
-  .background-details .info {
-    display: block;
-    padding: 10px 0;
-  }
-  .background-details .title {
-    display: none;
-  }
-  .card-nested {
-    padding: 5px 0;
-  }
-}
-.profile-card {
-  display: table;
-  width: 100%;
-}
-.profile-pic {
-  display: table-cell;
-  vertical-align: top;
-  padding: 1rem 4rem 0 0 ;
-}
-.profile-pic img {
-  width: 100px;
-  height: 100px;
-}
-.contact-details {
-  display: table-cell;
-}
-.contact-details .detail {
-  display: inline-block;
-  line-height: 2;
-  margin-right: 2rem;
-}
-.contact-details .detail .icon {
-  padding-right: 7px;
-  color: #888;
-}
-.contact-details .detail .info {
-  font-size: 0.8em;
-}
-.social-links {
-  line-height: 2.5;
-}
-.social-link {
-  display: block;
-}
-.social-link span {
-  display: inline-block;
-  vertical-align: middle;
-}
-.social-link:hover,
-.social-link:focus {
-  text-decoration: none;
-}
-.social-link .fa {
-  text-align: center;
-  width: 2em;
-}
-.fa-github {
-  color: #454545;
-}
-.fa-github:hover,
-.fa-github:focus {
-  text-decoration: none;
-  color: #2b2b2b;
-}
-.fa-twitter {
-  color: #33ccff;
-}
-.fa-twitter:hover,
-.fa-twitter:focus {
-  text-decoration: none;
-  color: #00bfff;
-}
-.fa-rss {
-  color: #f36f24;
-}
-.fa-rss:hover,
-.fa-rss:focus {
-  text-decoration: none;
-  color: #d8560c;
-}
-.fa-linkedin {
-  color: #007bb6;
-}
-.fa-linkedin:hover,
-.fa-linkedin:focus {
-  text-decoration: none;
-  color: #005983;
-}
-.fa-skype {
-  color: #12a5f4;
-}
-.fa-skype:hover,
-.fa-skype:focus {
-  text-decoration: none;
-  color: #0986ca;
-}
-.fa-stack-overflow {
-  color: #8e8e92;
-}
-.fa-stack-overflow:hover,
-.fa-stack-overflow:focus {
-  text-decoration: none;
-  color: #747479;
-}
-.fa-soundcloud {
-  color: #e8822d;
-}
-.fa-soundcloud:hover,
-.fa-soundcloud:focus {
-  text-decoration: none;
-  color: #cc6916;
-}
-.fa-pinterest {
-  color: #bd091f;
-}
-.fa-pinterest:hover,
-.fa-pinterest:focus {
-  text-decoration: none;
-  color: #8c0717;
-}
-.fa-vimeo {
-  color: #17b3e8;
-}
-.fa-vimeo:hover,
-.fa-vimeo:focus {
-  text-decoration: none;
-  color: #128fba;
-}
-.fa-behance {
-  color: #2c98cf;
-}
-.fa-behance:hover,
-.fa-behance:focus {
-  text-decoration: none;
-  color: #2379a5;
-}
-.fa-codepen {
-  color: #1c1c1c;
-}
-.fa-codepen:hover,
-.fa-codepen:focus {
-  text-decoration: none;
-  color: #020202;
-}
-.fa-foursquare {
-  color: #fa4778;
-}
-.fa-foursquare:hover,
-.fa-foursquare:focus {
-  text-decoration: none;
-  color: #f91554;
-}
-.fa-reddit {
-  color: #545454;
-}
-.fa-reddit:hover,
-.fa-reddit:focus {
-  text-decoration: none;
-  color: #3b3b3b;
-}
-.fa-spotify {
-  color: #acd200;
-}
-.fa-spotify:hover,
-.fa-spotify:focus {
-  text-decoration: none;
-  color: #829f00;
-}
-.fa-dribbble {
-  color: #ce366f;
-}
-.fa-dribbble:hover,
-.fa-dribbble:focus {
-  text-decoration: none;
-  color: #a82959;
-}
-.fa-facebook {
-  color: #4b6daa;
-}
-.fa-facebook:hover,
-.fa-facebook:focus {
-  text-decoration: none;
-  color: #3b5687;
-}
-.fa-angellist {
-  color: #000000;
-}
-.fa-angellist:hover,
-.fa-angellist:focus {
-  text-decoration: none;
-  color: #000000;
-}
-.fa-bitbucket {
-  color: #205081;
-}
-.fa-bitbucket:hover,
-.fa-bitbucket:focus {
-  text-decoration: none;
-  color: #163758;
-}
-.fa-google-plus {
-  color: #bf2a1d;
-}
-.fa-google-plus:hover,
-.fa-google-plus:focus {
-  text-decoration: none;
-  color: #932016;
-}
-.background-card h4 {
-  font-variant: small-caps;
-  color: #777777;
-  border-bottom: 1px solid #eeeeee;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-  line-height: 1.2;
-}
-.background-card h4:not(:first-child) {
-  margin-top: 2em;
-}
-h4 > .fa,
-h4 > .title {
-  display: inline-block;
-  vertical-align: baseline;
-}
-h4 > .fa {
-  width: 4rem;
-}
-.content {
-  line-height: 1.5;
-}
-.card {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  padding: 2em 3.5em;
-}
-.card-nested {
-  padding: 1.5rem 0 1.5rem 4.2rem;
-}
-.card-wrapper {
-  padding: 5px;
-}
-.enumeration:not(:last-child):after {
-  content: ", ";
-}
-.enumeration:last-child:after {
-  content: ".";
-}
-@media only screen and (max-width: 768px) {
-  .profile-card {
-    display: block;
-  }
-  .contact-details,
-  .profile-pic {
-    display: block;
-    text-align: center;
-  }
-  .card-nested {
-    padding-left: 0;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .contact-details .detail {
-    display: block;
-  }
-}
-.card-skills {
-  position: relative;
-}
-.skill-info {
-  margin-left: 20px;
-}
-@media only screen and (min-width: 768px) {
-  .skill {
-    border-left: 9px solid #555555;
-  }
-  .skill.beginner {
-    height: 50%;
-    border-color: #e74c3c;
-  }
-  .skill.intermediate {
-    height: 70%;
-    border-color: #f1c40f;
-  }
-  .skill.advanced {
-    border-color: #5cb85c;
-  }
-  .skill.master {
-    border-color: black;
-  }
-}
-@media (max-width: 768px) {
-  .quote {
-    font-size: inherit;
-  }
-}
-@media print {
-  body {
-    font-size: 10pt;
-  }
-  a[href]:after {
-    content: none !important;
-  }
-  .pagebreak {
-    page-break-before: always;
-  }
-  .background-card h4:not(:first-child) {
-    margin-top: 0 !important;
-  }
-  .card {
-    border: 0;
-    padding: 0;
-  }
-  .container {
-    max-width: 100%;
-    width: 100%;
-  }
-  .contact-details .detail .icon {
-    color: #888 !important;
-  }
-  .background-card h4 {
-    padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
-    margin-top: 1em !important;
-  }
-  h4 > .fa {
-    display: none !important;
-  }
-  .card-nested {
-    padding: .5rem 0 .5rem 0;
-  }
-  .labels {
-    display: inline;
-  }
-  .skill-info {
-    margin-left: 0;
-  }
-  blockquote {
-    font-size: 100%;
-  }
-}
-
-    </style>
-  </head>
-
-  <body itemscope itemtype="http://schema.org/Person">
-    
-    <div class="container">
-      <section class="row">
-        <div class="card-wrapper">
-          <div class="card">
-            <div class="profile-card">
-                <div class="profile-pic">
-                  <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
-                    alt="Jenade Moodley" src="https://s.gravatar.com/avatar/0a001868b6ed46c1ba24eb29862f9b70?s=256" itemprop="image">
-                </div>
-                <div class="contact-details">
-                  <div class="name-and-profession">
-                    <h3 class="text-bolder name" itemprop="name"> Jenade Moodley</h3>
-                    <h5 class="text-muted" itemprop="jobTitle">Cloud Engineer</h5>
-                  </div>
-
-                    <div class="detail">
-                      <span class="icon">
-                        <i class="fa fa-lg fa-envelope"></i>
-                      </span>
-
-                      <span class="info">
-                        <a href="mailto:jenademoodley68+resume@gmail.com" class="link-disguise" itemprop="email">jenademoodley68+resume@gmail.com</a>
-                      </span>
-                    </div>
-
-
-                    <div class="detail">
-                      <span class="icon">
-                        <i class="fa fa-lg fa-map-marker"></i>
-                      </span>
-
-                        <span class="info">
-                          Cape Town, Western Cape,
-                          ZA
-                        </span>
-                    </div>
-
-                </div>
-                
-            </div>
-            <hr>
-
-            <div class="social-links">
-                <a class="social-link" href="https://www.linkedin.com/in/jenademoodley/" target="_blank">
-                  <span class="fa fa-linkedin fa-2x"></span> 
-                  <span class="social-link-text">https://www.linkedin.com/in/jenademoodley/</span>
-                </a>
-                <a class="social-link" href="https://github.com/jenademoodley" target="_blank">
-                  <span class="fa fa-github fa-2x"></span> 
-                  <span class="social-link-text">https://github.com/jenademoodley</span>
-                </a>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="card-wrapper">
-          <div class="card background-card">
-
-            <h4 id="about"> <span class="fa fa-lg fa-user"></span> <span class="title">About</span> </h4>
-            <div class="card-nested" itemprop="description">
-              <p> Seasoned Cloud Engineer with experience in Cloud, System, and Software Engineering. Bachelor of Science Honours in Computer Science from university of Kwa-Zulu Natal. Skilled in Cloud Architecture, Linux System Engineering, Technical Support, Technical Training, and Containers. Based in South Africa, Cape Town </p>
-            </div>
-
-            <h4 id="work-experience"> <span class="fa fa-lg fa-pencil-square-o"></span> <span class="title">Work Experience</span> </h4>
-            <ul class="list-unstyled">
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>Cloud Support Engineer</strong>,
-                      <a href="https://aws.amazon.com" target="_blank">Amazon Web Services</a>
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Dec 2017 -  Present  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 2 years 7 months </span> 
-                      </small>
-                    </p>
-                    <p>Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 175 fully featured services from data centers globally.</p>
-                      <ul>
-                          <li> Promoted from Graduate to Associate, and then to Engineer, within the space of 1.5 years </li>
-                          <li> Became a Quality Champion; Evaluate the quality and appropriateness of Support correspondences of engineers </li>
-                          <li> Pioneer for the AWS Premium Support Andon Program (PSAP) in Cape Town </li>
-                          <li> Member of ECS (Elastic Container Service) Support Operations </li>
-                          <li> Trained engineers globally on Docker, containerization, and ECS/Fargate </li>
-                      </ul>
-                  </div>
-
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>Student Tutor</strong>,
-                      <a href="https://ukzn.ac.za/" target="_blank">University of Kwa-Zulu Natal</a>
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Jan 2017 -  Nov 2017  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 10 months </span> 
-                      </small>
-                    </p>
-                    <p>UKZN is one of three universities in South Africa and indeed in Africa rated amongst the top 500 universities of the world according to the Academic Rankings of World Universities (ARWU)</p>
-                      <ul>
-                          <li> Assisted in teaching of tutorials and practicals </li>
-                          <li> Graded assignments and practical assessments </li>
-                      </ul>
-                  </div>
-
-                </li>
-            </ul>
-
-            <h4 id="skills"> <span class="fa fa-lg fa-code"></span> <span class="title">Skills</span> </h4>
-            <ul class="list-unstyled">
-                <li class="card-nested skill master">
-                  <strong>Systems Engineering (master):</strong> 
-                   <span class="enumeration">Networking</span>  <span class="enumeration">Load Balancing</span>  <span class="enumeration">Web Applications</span>  <span class="enumeration">Nginx</span>  <span class="enumeration">Apache</span>  <span class="enumeration">MySQL</span> 
-              </li>
-                <li class="card-nested skill intermediate">
-                  <strong>Programming (intermediate):</strong> 
-                   <span class="enumeration">Java</span>  <span class="enumeration">Python</span>  <span class="enumeration">C++</span>  <span class="enumeration">PHP</span>  <span class="enumeration">JavaScript</span> 
-              </li>
-                <li class="card-nested skill professional">
-                  <strong>Linux (professional):</strong> 
-                   <span class="enumeration">RedHat</span>  <span class="enumeration">CentOS</span>  <span class="enumeration">Ubuntu</span>  <span class="enumeration">Kernel</span>  <span class="enumeration">Debugging</span>  <span class="enumeration">Troubleshooting</span> 
-              </li>
-                <li class="card-nested skill professional">
-                  <strong>Cloud Architecture (professional):</strong> 
-                   <span class="enumeration">AWS</span>  <span class="enumeration">Azure</span>  <span class="enumeration">GCP</span>  <span class="enumeration">VPC</span>  <span class="enumeration">CloudEndure</span>  <span class="enumeration">EC2</span>  <span class="enumeration">ECS</span>  <span class="enumeration">RDS</span>  <span class="enumeration">EFS</span>  <span class="enumeration">ElastiCache</span> 
-              </li>
-            </ul>
+    <meta name="description" content="Seasoned Cloud Engineer with experience in Cloud, System, and Software Engineering. Bachelor of Science Honours in Computer Science from university of Kwa-Zulu Natal. Skilled in Cloud Architecture, Linux System Engineering, Technical Support, Technical Training, and Containers. Based in Durban, South Africa">
   
-            <h4 id="education"><span class="fa fa-lg fa-mortar-board"></span> <span class="title">Education</span></h4>
-            
-            <ul class="list-unstyled">
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>Computer Science, Bachelor of Science</strong>,&nbsp;
-                      University of Kwa-Zulu Natal
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        Jan 2014 -  Dec 2016 
-                      </small>
-                    </p>
-                    <i></i>
-                    <div class="space-top labels">
-                       <span class="label label-keyword">Computer Science</span>  <span class="label label-keyword">Mathematics</span>  <span class="label label-keyword">Statistics</span> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+        <style>:root{color-scheme:light dark;--color-background: #ffffff;--color-muted: #f3f4f5;--color-primary: #191e23;--color-secondary: #6c7781;--color-accent: #ffb900;--color-link: #46b450;--scale-ratio: 1.25;--scale0: 1rem;--scale1: calc(var(--scale0) * var(--scale-ratio));--scale2: calc(var(--scale1) * var(--scale-ratio));--scale3: calc(var(--scale2) * var(--scale-ratio));--scale4: calc(var(--scale3) * var(--scale-ratio));--scale5: calc(var(--scale4) * var(--scale-ratio))}@media (prefers-color-scheme: dark){:root{--color-background: #191e23;--color-muted: #23282d;--color-primary: #fbfbfc;--color-secondary: #ccd0d4}}*{box-sizing:border-box;margin:0;padding:0}html{font-size:14px}body{background:var(--color-background);color:var(--color-primary);display:grid;font:1em/1.5 Lato,sans-serif;gap:2em;grid-template-columns:[full-start] 1fr [main-start side-start] minmax(min-content,12em) [side-end content-start] minmax(min-content,36em) [main-end content-end] 1fr [full-end];grid-template-rows:auto [content] 0;margin-bottom:4em}body:before{content:"";grid-column:full;grid-row:content}ol,ul{padding-left:1em}:not(.icon-list,.tag-list)>li+li{margin-top:.4em}li::marker,.network{color:var(--color-secondary)}a{color:var(--color-link);text-decoration:none;transition:color .2s}a:focus,a:hover{color:var(--color-accent)}h1,h2,h3,h5{font-weight:400}h1,h2,h3{line-height:1.2}h1{font-size:var(--scale5)}h2{color:var(--color-secondary);font-size:var(--scale4)}h3{color:var(--color-accent);font-size:var(--scale3);grid-column:side;margin-bottom:1rem}h4{font-size:var(--scale2)}h5{font-size:var(--scale1)}h6{font-size:var(--scale0)}blockquote{border-left:.2em solid var(--color-muted);padding-left:1em}cite{color:var(--color-secondary);font-style:inherit}cite:before{content:"— "}svg{margin-right:.2em;vertical-align:text-bottom}.masthead{background:var(--color-muted);display:inherit;gap:inherit;grid-column:full;grid-template-columns:inherit;padding:4em 0;text-align:center}.masthead>*,section{grid-column:main}.masthead>img{border:4px solid;border-radius:50%;margin:0 auto;max-width:12em}article>*+*,blockquote>*+*,.timeline>div>*+*{margin-top:.6em}.meta{color:var(--color-secondary)}.stack{display:grid;gap:1.5em}.icon-list{display:flex;flex-wrap:wrap;gap:.4em 1em;justify-content:center;list-style:none;padding:0}.grid-list{display:grid;gap:1em}.tag-list{display:flex;flex-wrap:wrap;gap:.4em;list-style:none;padding:0}.tag-list>li{background:var(--color-muted);border-radius:.2em;padding:.2em .6em}.timeline>div{position:relative}.timeline>div:not(:last-child){padding-bottom:1rem}.timeline>div:not(:last-child):before{content:"";position:absolute;top:1rem;left:-15px;width:2px;height:100%;background:var(--color-secondary)}.timeline>div:not(:only-child):after{content:"";position:absolute;top:.6rem;left:-20px;width:8px;height:8px;background:var(--color-secondary);border:2px solid var(--color-background);border-radius:50%}@media print,(min-width: 48em){h3{text-align:right;margin-bottom:inherit}.masthead{text-align:inherit}.masthead>*,section{grid-column:content}.masthead img{grid-column:side;grid-row:span 2;max-width:100%}section{display:contents}.icon-list{flex-direction:column}.grid-list{grid-template-columns:repeat(auto-fit,minmax(calc((100% - 1em)/2),1fr))}}
+</style>
+      </head>
+      <body>
+        
+    <header class="masthead">
+      <img src="https://s.gravatar.com/avatar/0a001868b6ed46c1ba24eb29862f9b70?s=256" alt="">
+      <div>
+        <h1>Jenade Moodley</h1>
+        <h2>Cloud Engineer</h2>
+      </div>
+      <article><p>Seasoned Cloud Engineer with experience in Cloud, System, and Software Engineering. Bachelor of Science Honours in Computer Science from university of Kwa-Zulu Natal. Skilled in Cloud Architecture, Linux System Engineering, Technical Support, Technical Training, and Containers. Based in Durban, South Africa</p></article>
+      <ul class="icon-list">
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Durban, South Africa
+          </li>
+        
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:jenademoodley68+resume@gmail.com">jenademoodley68+resume@gmail.com</a>
+          </li>
+        
+        
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            <a href="https://devcloud.co.za">devcloud.co.za</a>
+          </li>
+        
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <a href="https://www.linkedin.com/in/jenademoodley/">jenademoodley</a>
+            <span class="network">(LinkedIn)</span>
+          </li>
+        
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <a href="https://github.com/jenademoodley">jenademoodley</a>
+            <span class="network">(GitHub)</span>
+          </li>
+        
+      </ul>
+    </header>
+  
+        
+    <section id="work">
+      <h3>Work</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4><a href="https://aws.amazon.com">Amazon Web Services</a></h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Cloud Support Engineer II</h5>
+                    <div class="meta">
+                      <div><time datetime="2021-12-01">Dec 2021</time> – Present</div>
+                      
                     </div>
                   </div>
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>Computer Science, Bachelor of Science Honours</strong>,&nbsp;
-                      University of Kwa-Zulu Natal
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        Jan 2017 -  Dec 2017 
-                      </small>
-                    </p>
-                    <i>Summa Cum Laude</i>
-                    <div class="space-top labels">
-                       <span class="label label-keyword">Computer Science (Advanced)</span> 
+                  <p>My role at AWS is to resolve diverse and in-depth customer support queries, focusing on large enterprise customers, including Fortune 500 companies, with complex environments and architecture. I also mentored, trained, and upskilled engineers within the organization, and focused on support engineering projects.</p>
+                  
+                    <ul>
+                      <li><p>Pioneer for the AWS Premium Support Andon Program (PSAP) in Cape Town</p></li><li><p>Quality Champion - Evaluate the quality and appropriateness of Support correspondences of engineers</p></li><li><p>Member of ECS (Elastic Container Service) Support Operations</p></li><li><p>Leader of the ECS Pioneer initiative which trained AWS engineers globally on Docker, containerization, and ECS/Fargate</p></li><li><p>ECS Subject Matter Expert - Proved deep technical expertise on using and troubleshooting ECS, capable of answering in-depth queries and further develop the ECS service offered by AWS</p></li>
+                    </ul>
+                  
+                </div>
+              
+                <div>
+                  <div>
+                    <h5>Cloud Support Engineer I</h5>
+                    <div class="meta">
+                      <div><time datetime="2019-09-01">Sep 2019</time> – <time datetime="2021-12-01">Dec 2021</time></div>
+                      
                     </div>
-                  </div>
-                </li>
-            </ul>
-
-            <h4 id="awards"><span class="fa fa-lg fa-trophy"></span> <span class="title">Awards</span></h4>
-            <ul class="list-unstyled">
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm" itemprop="award">
-                      <strong>Linux+</strong>,&nbsp;
-                      CompTIA
-                    </p>
-                    <p class="text-muted">
-                      <small> Awarded on: Apr 2018 </small>
-                    </p>
-                    <p> CompTIA Linux+ validates the competencies required of an early career system administrator supporting Linux systems. </p>
-                  </div>
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm" itemprop="award">
-                      <strong>AWS Certified Solutions Architect - Associate</strong>,&nbsp;
-                      Amazon Web Services
-                    </p>
-                    <p class="text-muted">
-                      <small> Awarded on: Jun 2020 </small>
-                    </p>
-                    <p> The AWS Certified Solutions Architect - Associate examination is intended for individuals who perform a solutions architect role and have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS. </p>
-                  </div>
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm" itemprop="award">
-                      <strong>AWS Certified SysOps Administrator - Associate</strong>,&nbsp;
-                      Amazon Web Services
-                    </p>
-                    <p class="text-muted">
-                      <small> Awarded on: Jul 2020 </small>
-                    </p>
-                    <p> The AWS Certified SysOps Administrator – Associate examination is intended for systems administrators in a systems operations role with at least one year of experience in deployment, management, and operations on AWS. </p>
-                  </div>
-                </li>
-            </ul>
-
-
-            <h4  id="publications"><span class="fa fa-lg fa-book"></span> <span class="title">Publications</span> </h4>
-            <ul class="list-unstyled">
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>
-                         <a href="https://www.springerprofessional.de/en/weather-characterization-from-outdoor-scene-images/16122178"  target="_blank">Weather Characterization from Outdoor Scene Images</a> 
-                      </strong>,&nbsp;
-                      International Conference on Computer Vision and Graphics
-                    </p>
-                    <p class="text-muted">
-                      <small> Published on: Sep 19, 2018 </small>
-                    </p>
-                    <p class="clear-margin">Research paper presenting a variety of techniques to characterize outdoor scene images into their respective weather components; the sky condition (sunny or cloudy), the presence of rain, and the visibility. </p>
                   </div>
                   
-                </li>
-            </ul>
-
-            <h4 id="interests"> <span class="fa fa-lg fa-heart"></span> <span class="title">Interests</span> </h4>
-            <ul class="list-unstyled">
-                <li class="card-nested">
-                  <p>
-                    <strong>Gaming</strong>
-                  </p>
-
-                  <div class="space-top labels">
-                      <span class="label label-keyword">Open World RPG</span>
+                  
+                </div>
+              
+                <div>
+                  <div>
+                    <h5>Cloud Support Associate</h5>
+                    <div class="meta">
+                      <div><time datetime="2018-06-30">Jun 2018</time> – <time datetime="2019-09-01">Sep 2019</time></div>
+                      
+                    </div>
                   </div>
-                </li>
-                <li class="card-nested">
-                  <p>
-                    <strong>Hiking</strong>
-                  </p>
-
-                  <div class="space-top labels">
-                      <span class="label label-keyword">Beautiful Scenery</span>
+                  
+                  
+                </div>
+              
+                <div>
+                  <div>
+                    <h5>Graduate Cloud Support Associate</h5>
+                    <div class="meta">
+                      <div><time datetime="2017-12-29">Dec 2017</time> – <time datetime="2018-06-30">Jun 2018</time></div>
+                      
+                    </div>
                   </div>
-                </li>
-            </ul>
-
-
-            <h4 id="languages"><span class="fa fa-lg fa-language"></span> <span class="title">Languages</span> </h4>
-            <p class="card-nested">
-                <span class="enumeration">
-                  <strong>English</strong> (Native speaker)
-                </span>
-                <span class="enumeration">
-                  <strong>Afrikaans</strong> (Limited working proficiency)
-                </span>
-            </ul>
-
+                  
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+          <article>
+            <header>
+              <h4><a href="https://ukzn.ac.za/">University of Kwa-Zulu Natal</a></h4>
+              <div class="meta">
+                
+              </div>
+            </header>
+            <div class="timeline">
+              
+                <div>
+                  <div>
+                    <h5>Student Tutor</h5>
+                    <div class="meta">
+                      <div><time datetime="2017-01-15">Jan 2017</time> – <time datetime="2017-12-01">Dec 2017</time></div>
+                      
+                    </div>
+                  </div>
+                  <p>At UKZN I assisted the Computer Science faculty by tutoring students, facilitating exams, and graded assignments and assessments</p>
+                  
+                    <ul>
+                      <li><p>Assisted in teaching of tutorials and practicals</p></li><li><p>Graded assignments and practical assessments</p></li><li><p>Facilitated tests and exams</p></li>
+                    </ul>
+                  
+                </div>
+              
+            </div>
+          </article>
+        
+      </div>
+    </section>
+  
+        
+        
+    <section id="education">
+      <h3>Education</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4><a href="https://ukzn.ac.za/">University of Kwa-Zulu Natal</a></h4>
+              <div class="meta">
+                <strong>Computer Science</strong>
+                <div><time datetime="2014-01-01">Jan 2014</time> – <time datetime="2016-12-31">Dec 2016</time></div>
+              </div>
+            </header>
+            <p>Bachelor of Science</p>
+            
+              <h5>Courses</h5>
+              <ul>
+                <li><p>Computer Science</p></li><li><p>Mathematics</p></li><li><p>Statistics</p></li>
+              </ul>
+            
+          </article>
+        
+          <article>
+            <header>
+              <h4><a href="https://ukzn.ac.za/">University of Kwa-Zulu Natal</a></h4>
+              <div class="meta">
+                <strong>Computer Science</strong>
+                <div><time datetime="2017-01-01">Jan 2017</time> – <time datetime="2017-12-31">Dec 2017</time></div>
+              </div>
+            </header>
+            <p>Bachelor of Science Honours (Summa Cum Laude)</p>
+            
+              <h5>Courses</h5>
+              <ul>
+                <li><p>Computer Science (Advanced)</p></li>
+              </ul>
+            
+          </article>
+        
+      </div>
+    </section>
+  
+        
+        
+    <section id="awards">
+      <h3>Awards</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4>Wise Guru Award</h4>
+              <div class="meta">
+                
+                  <div>
+                    Awarded by <strong>AWS Support Engineering</strong>
+                  </div>
+                
+                <time datetime="2023-04-25">Apr 2023</time>
+              </div>
+            </header>
+            <p>This award is for engineers who are pivotal in the team's mentoring and training efforts.</p>
+          </article>
+        
+      </div>
+    </section>
+  
+        
+    <section id="certificates">
+      <h3>Certificates</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4><a href="https://www.credly.com/badges/4713c157-9e16-48bf-a73b-6176d87ad3c6/public_url">Linux+</a></h4>
+              <div class="meta">
+                
+                  <div>
+                    Issued by <strong>CompTIA</strong>
+                  </div>
+                
+                <time datetime="2018-04-20">Apr 2018</time>
+              </div>
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              <h4><a href="https://www.credly.com/badges/597307a4-a29d-4ade-b1e6-0faf0f3af564/public_url">AWS Certified Solutions Architect - Associate</a></h4>
+              <div class="meta">
+                
+                  <div>
+                    Issued by <strong>Amazon Web Services</strong>
+                  </div>
+                
+                <time datetime="2020-06-26">Jun 2020</time>
+              </div>
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              <h4><a href="https://www.credly.com/badges/53b50e16-85f0-4b79-b1fb-ccaf33564d39/public_url">AWS Certified SysOps Administrator - Associate</a></h4>
+              <div class="meta">
+                
+                  <div>
+                    Issued by <strong>Amazon Web Services</strong>
+                  </div>
+                
+                <time datetime="2020-07-10">Jul 2020</time>
+              </div>
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              <h4><a href="https://www.credly.com/badges/47831f8f-a2c8-406c-b0ce-073fddaab26d/public_url">AWS Certified Developer – Associate</a></h4>
+              <div class="meta">
+                
+                  <div>
+                    Issued by <strong>Amazon Web Services</strong>
+                  </div>
+                
+                <time datetime="2022-07-29">Jul 2022</time>
+              </div>
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              <h4><a href="https://www.credly.com/badges/9cc2f903-4d18-49ff-91d7-151dce0c10a7/public_url">AWS Certified Solutions Architect – Professional</a></h4>
+              <div class="meta">
+                
+                  <div>
+                    Issued by <strong>Amazon Web Services</strong>
+                  </div>
+                
+                <time datetime="2022-09-09">Sep 2022</time>
+              </div>
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              <h4><a href="https://www.credly.com/badges/77de1ac9-8092-4a4d-9fae-4c32287e17a2/public_url">Container Service (ECS) Subject Matter Expert</a></h4>
+              <div class="meta">
+                
+                  <div>
+                    Issued by <strong>AWS Support Engineering</strong>
+                  </div>
+                
+                <time datetime="2022-09-09">Sep 2022</time>
+              </div>
+            </header>
+          </article>
+        
+      </div>
+    </section>
+  
+        
+    <section id="publications">
+      <h3>Publications</h3>
+      <div class="stack">
+        
+          <article>
+            <header>
+              <h4><a href="https://www.springerprofessional.de/en/weather-characterization-from-outdoor-scene-images/16122178">Weather Characterization from Outdoor Scene Images</a></h4>
+              <div class="meta">
+                
+                  <div>
+                    Published by <strong>International Conference on Computer Vision and Graphics</strong>
+                  </div>
+                
+                <time datetime="2018-09-19">Sep 2018</time>
+              </div>
+            </header>
+            <p>Research paper presenting a variety of techniques to characterize outdoor scene images into their respective weather components; the sky condition (sunny or cloudy), the presence of rain, and the visibility.</p>
+          </article>
+        
+      </div>
+    </section>
+  
+        
+    <section id="skills">
+      <h3>Skills</h3>
+      <div class="grid-list">
+        
+          <div>
+            <h4>Linux</h4>
+            
+              <ul class="tag-list">
+                <li>RedHat</li><li>CentOS</li><li>Ubuntu</li><li>Kernel</li><li>Debugging</li><li>Troubleshooting</li>
+              </ul>
+            
           </div>
-        </div>
-      </section>
-    </div>
-    
-  </body>
-</html>
+        
+          <div>
+            <h4>Cloud Architecture</h4>
+            
+              <ul class="tag-list">
+                <li>AWS</li><li>VPC</li><li>EC2</li><li>ECS</li><li>ECR</li><li>Fargate</li><li>RDS</li><li>EFS</li><li>ElastiCache</li><li>EKS</li><li>Batch</li><li>ELB</li><li>IAM</li><li>CloudFormation</li><li>XRay</li><li>S3</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Systems Engineering</h4>
+            
+              <ul class="tag-list">
+                <li>Networking</li><li>Load Balancing</li><li>Web Applications</li><li>Nginx</li><li>Apache</li><li>MySQL</li><li>Docker</li><li>Kubernetes</li><li>IaC</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Programming</h4>
+            
+              <ul class="tag-list">
+                <li>Java</li><li>Python</li><li>C++</li><li>PHP</li><li>JavaScript</li>
+              </ul>
+            
+          </div>
+        
+      </div>
+    </section>
+  
+        
+    <section id="languages">
+      <h3>Languages</h3>
+      <div class="grid-list">
+        
+          <div>
+            <h4>English</h4>
+            Native speaker
+          </div>
+        
+          <div>
+            <h4>Afrikaans</h4>
+            Limited working proficiency
+          </div>
+        
+      </div>
+    </section>
+  
+        
+    <section id="interests">
+      <h3>Interests</h3>
+      <div class="grid-list">
+        
+          <div>
+            <h4>Gaming</h4>
+            
+              <ul class="tag-list">
+                <li>Open World RPG</li>
+              </ul>
+            
+          </div>
+        
+          <div>
+            <h4>Hiking</h4>
+            
+              <ul class="tag-list">
+                <li>Beautiful Scenery</li>
+              </ul>
+            
+          </div>
+        
+      </div>
+    </section>
+  
+        
+      </body>
+    </html>

@@ -2,15 +2,15 @@
   "basics": {
     "name": "Jenade Moodley",
     "label": "Cloud Engineer",
-    "picture": "https://s.gravatar.com/avatar/0a001868b6ed46c1ba24eb29862f9b70?s=256",
+    "image": "https://s.gravatar.com/avatar/0a001868b6ed46c1ba24eb29862f9b70?s=256",
     "email": "jenademoodley68+resume@gmail.com",
-    "website": "https://devcloud.co.za",
-    "summary": "Seasoned Cloud Engineer with experience in Cloud, System, and Software Engineering. Bachelor of Science Honours in Computer Science from university of Kwa-Zulu Natal. Skilled in Cloud Architecture, Linux System Engineering, Technical Support, Technical Training, and Containers. Based in South Africa, Cape Town",
+    "url": "https://devcloud.co.za",
+    "summary": "Seasoned Cloud Engineer with experience in Cloud, System, and Software Engineering. Bachelor of Science Honours in Computer Science from university of Kwa-Zulu Natal. Skilled in Cloud Architecture, Linux System Engineering, Technical Support, Technical Training, and Containers. Based in Durban, South Africa",
     "location": {
-      "postalCode": "8001",
-      "city": "Cape Town",
+      "postalCode": "4068",
+      "city": "Durban",
       "countryCode": "ZA",
-      "region": "Western Cape"
+      "region": "Kwa-Zulu Natal"
     },
     "profiles": [
       {
@@ -27,35 +27,67 @@
   },
   "work": [
     {
-      "company": "Amazon Web Services",
-      "position": "Cloud Support Engineer",
-      "website": "https://aws.amazon.com",
-      "startDate": "2017-12-29",
-      "summary": "Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 175 fully featured services from data centers globally.",
+      "name": "Amazon Web Services",
+      "position": "Cloud Support Engineer II",
+      "url": "https://aws.amazon.com",
+      "startDate": "2021-12-01",
+      "summary": "My role at AWS is to resolve diverse and in-depth customer support queries, focusing on large enterprise customers, including Fortune 500 companies, with complex environments and architecture. I also mentored, trained, and upskilled engineers within the organization, and focused on support engineering projects.",
       "highlights": [
-        "Promoted from Graduate to Associate, and then to Engineer, within the space of 1.5 years",
-        "Became a Quality Champion; Evaluate the quality and appropriateness of Support correspondences of engineers",
         "Pioneer for the AWS Premium Support Andon Program (PSAP) in Cape Town",
+        "Quality Champion - Evaluate the quality and appropriateness of Support correspondences of engineers",
         "Member of ECS (Elastic Container Service) Support Operations",
-        "Trained engineers globally on Docker, containerization, and ECS/Fargate"
+        "Leader of the ECS Pioneer initiative which trained AWS engineers globally on Docker, containerization, and ECS/Fargate",
+        "ECS Subject Matter Expert - Proved deep technical expertise on using and troubleshooting ECS, capable of answering in-depth queries and further develop the ECS service offered by AWS"
       ]
     },
     {
-      "company": "University of Kwa-Zulu Natal",
+      "name": "Amazon Web Services",
+      "position": "Cloud Support Engineer I",
+      "url": "https://aws.amazon.com",
+      "startDate": "2019-09-01",
+      "endDate": "2021-12-01",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "name": "Amazon Web Services",
+      "position": "Cloud Support Associate",
+      "url": "https://aws.amazon.com",
+      "startDate": "2018-06-30",
+      "endDate": "2019-09-01",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "name": "Amazon Web Services",
+      "position": "Graduate Cloud Support Associate",
+      "url": "https://aws.amazon.com",
+      "startDate": "2017-12-29",
+      "endDate": "2018-06-30",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "name": "University of Kwa-Zulu Natal",
       "position": "Student Tutor",
-      "website": "https://ukzn.ac.za/",
+      "url": "https://ukzn.ac.za/",
       "startDate": "2017-01-15",
-      "endDate": "2017-11-30",
-      "summary": "UKZN is one of three universities in South Africa and indeed in Africa rated amongst the top 500 universities of the world according to the Academic Rankings of World Universities (ARWU)",
+      "endDate": "2017-12-01",
+      "summary": "At UKZN I assisted the Computer Science faculty by tutoring students, facilitating exams, and graded assignments and assessments",
       "highlights": [
         "Assisted in teaching of tutorials and practicals",
-        "Graded assignments and practical assessments"
+        "Graded assignments and practical assessments",
+        "Facilitated tests and exams"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Kwa-Zulu Natal",
+      "url": "https://ukzn.ac.za/",
       "area": "Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2014-01-01",
@@ -68,34 +100,68 @@
     },
     {
       "institution": "University of Kwa-Zulu Natal",
+      "url": "https://ukzn.ac.za/",
       "area": "Computer Science",
-      "studyType": "Bachelor of Science Honours",
+      "studyType": "Bachelor of Science Honours (Summa Cum Laude)",
       "startDate": "2017-01-01",
       "endDate": "2017-12-31",
-      "gpa": "Summa Cum Laude",
+      "score": "Summa Cum Laude",
       "courses": [
         "Computer Science (Advanced)"
       ]
     }
   ],
-  "awards": [
+  "certificates": [
     {
-      "title": "Linux+",
+      "name": "Linux+",
       "date": "2018-04-20",
-      "awarder": "CompTIA",
-      "summary": "CompTIA Linux+ validates the competencies required of an early career system administrator supporting Linux systems."
+      "issuer": "CompTIA",
+      "summary": "CompTIA Linux+ validates the competencies required of an early career system administrator supporting Linux systems.",
+      "url": "https://www.credly.com/badges/4713c157-9e16-48bf-a73b-6176d87ad3c6/public_url"
     },
     {
-      "title": "AWS Certified Solutions Architect - Associate",
+      "name": "AWS Certified Solutions Architect - Associate",
       "date": "2020-06-26",
-      "awarder": "Amazon Web Services",
-      "summary": "The AWS Certified Solutions Architect - Associate examination is intended for individuals who perform a solutions architect role and have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS."
+      "issuer": "Amazon Web Services",
+      "summary": "AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a wide range of AWS services. The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework. This certification can enhance the career profile and earnings of certified individuals and increase your credibility and confidence in stakeholder and customer interactions.",
+      "url": "https://www.credly.com/badges/597307a4-a29d-4ade-b1e6-0faf0f3af564/public_url"
     },
     {
-      "title": "AWS Certified SysOps Administrator - Associate",
+      "name": "AWS Certified SysOps Administrator - Associate",
       "date": "2020-07-10",
-      "awarder": "Amazon Web Services",
-      "summary": "The AWS Certified SysOps Administrator – Associate examination is intended for systems administrators in a systems operations role with at least one year of experience in deployment, management, and operations on AWS."
+      "issuer": "Amazon Web Services",
+      "summary": "This credential helps organizations identify and develop talent with critical skills for implementing cloud initiatives. Earning AWS Certified SysOps Administrator - Associate validates experience in deploying, managing, and operating workloads on AWS.",
+      "url": "https://www.credly.com/badges/53b50e16-85f0-4b79-b1fb-ccaf33564d39/public_url"
+    },
+    {
+      "name": "AWS Certified Developer – Associate",
+      "date": "2022-07-29",
+      "issuer": "Amazon Web Services",
+      "summary": "AWS Certified Developer - Associate showcases knowledge and understanding of core AWS services, uses, and basic AWS architecture best practices, and proficiency in developing, deploying, and debugging cloud-based applications by using AWS. Preparing for and attaining this certification gives certified individuals more confidence and credibility. Organizations with AWS Certified developers have the assurance of having the right talent to give them a competitive advantage and ensure stakeholder and customer satisfaction.",
+      "url": "https://www.credly.com/badges/47831f8f-a2c8-406c-b0ce-073fddaab26d/public_url"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Professional",
+      "date": "2022-09-09",
+      "issuer": "Amazon Web Services",
+      "summary": "This credential helps certified individuals showcase advanced knowledge and skills in providing complex solutions to complex problems, optimizing security, cost, and performance, and automating manual processes. This certification is a means for organizations to identify and develop talent with these critical skills for implementing cloud initiatives.",
+      "url": "https://www.credly.com/badges/9cc2f903-4d18-49ff-91d7-151dce0c10a7/public_url"
+    },
+    {
+      "name": "Container Service (ECS) Subject Matter Expert",
+      "date": "2022-09-09",
+      "issuer": "AWS Support Engineering",
+      "summary": "The earner of this badge has gained deep technical expertise in the mentioned AWS service. The earner has a proven track record of improving customer experience by demonstrating the must-know technical depth of the service architecture. They are aware of the big picture understanding of the service competencies, known issues and workarounds. They exhibit the critical knowledge required to resolve complex cases, and apply their service knowledge to find technical solutions.",
+      "url": "https://www.credly.com/badges/77de1ac9-8092-4a4d-9fae-4c32287e17a2/public_url"
+    }
+  ],
+  "awards":[
+    {
+      "title": "Wise Guru Award",
+      "date": "2023-04-25",
+      "awarder": "AWS Support Engineering",
+      "summary": "This award is for engineers who are pivotal in the team's mentoring and training efforts.",
+      "url": "https://www.credly.com/badges/1125b744-6fee-45c8-8800-1f7fbb109311/public_url"
     }
   ],
   "publications": [
@@ -103,7 +169,7 @@
       "name": "Weather Characterization from Outdoor Scene Images",
       "publisher": "International Conference on Computer Vision and Graphics",
       "releaseDate": "2018-09-19",
-      "website": "https://www.springerprofessional.de/en/weather-characterization-from-outdoor-scene-images/16122178",
+      "url": "https://www.springerprofessional.de/en/weather-characterization-from-outdoor-scene-images/16122178",
       "summary": "Research paper presenting a variety of techniques to characterize outdoor scene images into their respective weather components; the sky condition (sunny or cloudy), the presence of rain, and the visibility. "
     }
   ],
@@ -125,15 +191,21 @@
       "level": "Professional",
       "keywords": [
         "AWS",
-        "Azure",
-        "GCP",
         "VPC",
-        "CloudEndure",
         "EC2",
         "ECS",
+        "ECR",
+        "Fargate",
         "RDS",
         "EFS",
-        "ElastiCache"
+        "ElastiCache",
+        "EKS",
+        "Batch",
+        "ELB",
+        "IAM",
+        "CloudFormation",
+        "XRay",
+        "S3"
       ]
     },
     {
@@ -145,7 +217,10 @@
         "Web Applications",
         "Nginx",
         "Apache",
-        "MySQL"
+        "MySQL",
+        "Docker",
+        "Kubernetes",
+        "IaC"
       ]
     },
     {
